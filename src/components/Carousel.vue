@@ -1,19 +1,12 @@
 <template>
     <div>
     <b-jumbotron bg-variant="info" text-variant="white" border-variant="dark">
-        <template #header>BootstrapVue</template>
+        <template #header>ShopGo</template>
 
         <template #lead>
-        This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
-        featured content or information.
+          Ευκολά και γρήγορα δημιουργησε το δικό σου ηλεκτρονικό κατάστημα
         </template>
-
-        <hr class="my-4">
-
-        <p>
-        It uses utility classes for typography and spacing to space content out within the larger
-        container.
-        </p>
+        
     </b-jumbotron>
     </div>
 </template>
@@ -29,18 +22,21 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+  h3 {
+    margin: 40px 0 0;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  a {
+    color: #42b983;
+  }
 </style>
